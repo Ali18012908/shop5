@@ -1,0 +1,74 @@
+body{
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif; 
+
+}
+/* header */
+nav ul{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 20px;
+}
+header{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    margin: 0px;
+    height: 400px;
+    background-image: url(./Screenshot\ \(9\).png);
+    background-position: center;
+    background-size: cover;
+}
+header .logo{
+    background-color: red;
+    width: 100px;
+    display: inline-block;
+    height: 95px;
+    text-indent: -9999px;
+    background-size: 95px;
+    border-radius: 120px;
+    background-image: url(/Savdouz\ biz\ bilan\ juda\ oson.png);
+}
+
+a{
+    color: white;
+    
+}
+/* features */
+.features figure{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+.features figure img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: grey 0px 0px 10px;
+    border: 1px solid white;
+}
+.features{
+    background-color: white;
+    color: grey;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
